@@ -20,15 +20,14 @@ Scan this with FBI!!
     - [x] flac
     - [x] mp3
     - [x] m4a
+    - [x] opus
     - [x] Pausing
     - [x] Seeking
-- [x] Track metadata
+- [x] Song metadata
 - [x] Album art
-    - [x] From metadata
-    - [x] From indexing
-- [ ] Bumper controls
+- [x] Bumper controls
     - [x] Pause/play
-    - [ ] Next / previous
+    - [x] Next / previous
 - [ ] Playlists
     - [x] Enqueuing songs
     - [ ] Loop
@@ -37,8 +36,10 @@ Scan this with FBI!!
     - [x] Folder-based navigation
     - [x] Metadata-based indexing navigation
 - [x] Cool UI
+    - [x] with custom colors
 
 ---
+
 ## Usage
 
 ### Indexing
@@ -62,6 +63,29 @@ This process *will* take quite a bit of time (~1-5 sec/song, depending on the fo
 | double (2x) tap L   | stop playback       |
 | triple (3x) tap R   | next song           |
 | triple (3x) tap L   | previous song       |
+
+### Theming
+
+Pomegranate has rudimentary (horrid, heavily WIP) [theming support](/meta/theming.md).
+
+---
+
+## Bugs & roadmap
+
+### Bugs
+
+- Intermittent crashes for some users on home button or exiting the app?
+- Brightness is reset when opening the home menu or plugging in / unplugging the console.
+
+Please report bugs to https://github.com/sheepy0125/pomegranate/issues.
+
+### Roadmap
+
+- Sleeping after inactivity to prevent draining the battery
+- Last.fm scrobbling
+- UI rewrite
+- In-app theming
+- Looping, shuffle
 
 ---
 
@@ -89,3 +113,6 @@ This process *will* take quite a bit of time (~1-5 sec/song, depending on the fo
 ## Building
 
 Please see https://git.sr.ht/~sheepy/pomegranate/#building for building instructions.
+
+## Donations
+Any donations are greatly appreciated! https://ko-fi.com/sheepy0125
